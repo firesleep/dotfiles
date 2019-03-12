@@ -12,13 +12,16 @@ alias gpom='git push origin master'
 #Package Management
 alias paclist='sudo apt list --installed'
 
+#Programs
+alias r='ranger'
+
 #NPM 
 alias nr='npm run'
 alias ni='npm install'
 alias nid='npm install -D'
 
 #System
-alias source='source ~/.bashrc'
+
 
 #Files and Directories
 
