@@ -7,7 +7,7 @@ alias g='git'
 alias gi='git init'
 alias gra='git remote add'
 alias gs='git status'
-alias gpom='git push origin master'
+alias gp='git push origin master'
 
 #Package Management
 alias paclist='sudo apt list --installed'
