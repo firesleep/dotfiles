@@ -1,0 +1,51 @@
+#My Aliases
+
+
+
+#Git
+alias g='git'
+alias gi='git init'
+alias gra='git remote add'
+alias gs='git status'
+alias gpom='git push origin master'
+
+#Package Management
+alias paclist='sudo apt list --installed'
+
+#NPM 
+alias nr='npm run'
+alias ni='npm install'
+alias nid='npm install -D'
+
+#System
+alias source='source ~/.bashrc'
+
+#Files and Directories
+
+alias home='cd ~'
+alias ..='cd ..'
+alias '?=man'
+
+
+function mkd() {
+ mkdir -p "$@" && cd "$_";
+ }
+
+#W3M Html to Text
+
+#Weather Wttr.In
+
+alias syspnd='systemctl suspend'
+alias wtt='/home/umnt/final/finalsort/./w3tt.sh'
+alias wethors='curl wttr.in/horsforth'
+alias wetkes='curl wttr.in/keswick'
+alias ,s='/home/s/Desktop/finalbackup/adn/sysad/syncscripts/./synccloud.sh'
+alias mpsy='./mpsy.sh'
+alias andr='cd /home/s/Android/Sdk/emulator/ && ./emulator -avd Nexus_5X_API_27'
+alias lst='ls -htr'
+alias md='mkdir'
+alias cc='cd /home/umnt/final/finalsort'
+alias ww='/home/s/Desktop/finalbackup/finalsort/.//wwcap.sh'
+alias www='for i in /home/s/Desktop/finalbackup/temp/*.html; do /home/s/Desktop/finalbackup/finalsort/./wwcap.sh "$i"; done'
+alias bu='/home/s/Desktop/finalbackup/adn/sysad/syncscripts/./rsyncusb.sh'
+
