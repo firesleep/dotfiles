@@ -21,7 +21,7 @@ alias ni='npm install'
 alias nid='npm install -D'
 
 #System
-
+alias syspnd='systemctl suspend'
 
 #Files and Directories
 
