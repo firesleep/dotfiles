@@ -1,6 +1,7 @@
 #My Aliases
 
 #Config
+alias sbash='source ~/.bashrc'
 alias cp='config push'
 
 #Git
@@ -29,7 +30,7 @@ alias syspnd='systemctl suspend'
 alias home='cd ~'
 alias ..='cd ..'
 alias '?=man'
-
+alias cont='cd /home/umnt/final/adn/ctcs/'
 
 function mkd() {
  mkdir -p "$@" && cd "$_";
