@@ -1,6 +1,7 @@
 #My Aliases
 
-
+#Config
+alias cp='config push'
 
 #Git
 alias g='git'
