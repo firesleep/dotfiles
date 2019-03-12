@@ -12,7 +12,7 @@ alias gs='git status'
 alias gp='git push origin master'
 
 #Package Management
-alias paclist='sudo apt list --installed'
+alias paclis='sudo apt list --installed'
 
 #Programs
 alias r='ranger'
@@ -30,7 +30,7 @@ alias syspnd='systemctl suspend'
 alias home='cd ~'
 alias ..='cd ..'
 alias '?=man'
-alias cont='cd /home/umnt/final/adn/ctcs/'
+alias cont='cd /home/umnt/final/adn/ctcs/ && ls'
 
 function mkd() {
  mkdir -p "$@" && cd "$_";
