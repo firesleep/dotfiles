@@ -157,6 +157,7 @@ bar {
 
 #Custom bindings
 
+#exec --no-startup-id compton
 
 exec --no-startup-id wal -R 
 
