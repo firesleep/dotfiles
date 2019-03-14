@@ -165,8 +165,8 @@ exec --no-startup-id wal -R
 
 #exec xset -dpms
 
-gaps inner 10
-gaps outer 10
+gaps inner 20
+gaps outer 20
 
 for_window [class="^.*"] border pixel 0
 
